@@ -6,7 +6,10 @@ var myCharacteristic:CBCharacteristic?
 var manager:CBCentralManager?
 
 let serviceUUID = CBUUID(string: "ab0828b1-198e-4351-b779-901fa0e0371e")
-let periphealUUID = CBUUID(string: "24517CE4-2DC1-6489-39A4-672BBE4344DF")
+let periphealUUID = CBUUID(string: "676BD671-6DF1-981A-96F8-A0710DA2492F")
+
+// SERVICE_UUID "ab0828b1-198e-4351-b779-901fa0e0371e"
+// MESSAGE_UUID "4ac8a682-9736-4e5d-932b-e9b31405049c"
 
 class ViewController: UIViewController, CBCentralManagerDelegate {
 
